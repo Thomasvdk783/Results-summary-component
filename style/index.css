@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*background-color: blue;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 100vh;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    height: 100%;
+  }
+}
+/* Style button of app */
+.btn-continue {
+  border-radius: 25px;
+  background-color: hsl(224deg, 30%, 27%);
+  color: #fff;
+  border: none;
+  padding: 15px 45px 15px 45px;
+  font-weight: 700;
+  transition: 700ms;
+}
+.btn-continue:hover {
+  cursor: pointer;
+  background-color: hsl(241deg, 81%, 54%);
+  transition: 700ms;
+  scale: 1.03;
+}
+
+/* General style for index.html */
+.main-container-app {
+  border-radius: 25px;
+  box-shadow: 0px 10px 30px 5px hsl(221deg, 100%, 96%);
+  display: flex;
+  flex-direction: row;
+  /* second section of card */
+}
+.main-container-app .first-article {
+  padding: 40px;
+  border-radius: 25px;
+  background: linear-gradient(hsl(252deg, 100%, 67%), hsl(241deg, 81%, 54%));
+  width: 100%;
+  max-width: 300px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.main-container-app .first-article .box-result-number {
+  border-radius: 100%;
+  width: 150px;
+  height: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: linear-gradient(hsl(256deg, 72%, 46%), hsla(241deg, 72%, 46%, 0));
+}
+.main-container-app .first-article .box-result-number .result-number {
+  font-size: 45px;
+  font-weight: 800;
+}
+.main-container-app .first-article .box-result-number .under-result-number {
+  font-weight: 500;
+  color: hsla(0deg, 0%, 100%, 0.489);
+}
+.main-container-app .first-article .text-under-great {
+  color: hsla(0deg, 0%, 100%, 0.489);
+}
+.main-container-app .second-article {
+  padding: 40px;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-container-app .second-article .cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-container-app .card {
+  width: 100%;
+  max-width: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 15px;
+}
+.main-container-app .card .left-part-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.main-container-app .reaction {
+  background-color: hsla(0deg, 100%, 67%, 0.09);
+}
+.main-container-app .reaction i, .main-container-app .reaction h4 {
+  color: hsl(0deg, 100%, 67%);
+}
+.main-container-app .memory {
+  background-color: hsla(39deg, 100%, 56%, 0.09);
+}
+.main-container-app .memory i, .main-container-app .memory h4 {
+  color: hsl(39deg, 100%, 56%);
+}
+.main-container-app .verbal {
+  background-color: hsla(166deg, 100%, 37%, 0.09);
+}
+.main-container-app .verbal i, .main-container-app .verbal h4 {
+  color: hsl(166deg, 100%, 37%);
+}
+.main-container-app .visual {
+  background-color: hsla(234deg, 85%, 45%, 0.09);
+}
+.main-container-app .visual i, .main-container-app .visual h4 {
+  color: hsl(234deg, 85%, 45%);
+}
+.main-container-app .span-cards {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 650px) {
+  .main-container-app {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 0px;
+  }
+  .main-container-app .first-article {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+  .main-container-app .second-article .cards-container {
+    width: 100%;
+  }
+  .main-container-app .second-article .cards-container .card {
+    width: 100%;
+    max-width: 270px;
+  }
+  .attribution {
+    text-align: center;
+    max-width: 280px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

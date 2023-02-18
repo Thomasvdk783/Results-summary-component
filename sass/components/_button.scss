@@ -1,0 +1,17 @@
+/* Style button of app */
+
+.btn-continue{
+    border-radius: 25px;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    border: none;
+    padding: 15px 45px 15px 45px;
+    font-weight: 700;
+    transition: 700ms;
+    &:hover{
+        cursor: pointer;
+        background-color: hsl(241, 81%, 54%);
+        transition: 700ms;
+        scale: 1.03;
+    }
+}
